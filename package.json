@@ -1,0 +1,23 @@
+{
+  "name": "beatroom",
+  "version": "1.0.0",
+  "description": "A real-time collaborative music studio in the browser",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "music",
+    "sequencer",
+    "collaborative",
+    "socket.io",
+    "tone.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
